@@ -4,8 +4,8 @@ using System.Text.RegularExpressions;
 class Program
 {
     // Пути
-    private static readonly string SourceDir = @"C:\Anything\Study\ИП\IP";
-    private static readonly string TargetDir = @"C:\Anything\Study";
+    private static readonly string SourceDir = @"C:\path1";
+    private static readonly string TargetDir = @"C:\path2";
 
     // Выходные файлы
     private static readonly string CodeOutputFile = Path.Combine(TargetDir, "AllCode.txt");
